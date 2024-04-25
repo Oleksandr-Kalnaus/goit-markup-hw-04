@@ -192,9 +192,8 @@ img {
 	background: #f4f4fd;
 	margin-bottom: 8px;
 }
-.icon {
-	display: flex;
-	margin: 24px 100px;
+.content-icon-list {
+	padding: 24px 100px;
 }
 .advantages {
 	position: absolute;
@@ -295,7 +294,6 @@ img {
 }
 .social-link-team {
 	display: flex;
-	justify-content: center;
 	padding: 12px;
 }
 .social-item:hover, .social-item:focus {
@@ -402,7 +400,6 @@ background-color: #404bbf;
 
 .social-link-footer {
 	display: flex;
-	justify-content: center;
 	padding: 8px;
 }
 .footer-item-link:hover, .footer-item-link:focus {
