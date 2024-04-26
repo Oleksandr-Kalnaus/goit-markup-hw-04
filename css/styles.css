@@ -161,7 +161,6 @@ img {
 	align-items: center;
 	flex-direction: column;
 	gap: 48px;
-	max-width: 1440px;
 }
 .hero-propose {
 	max-width: 496px;
