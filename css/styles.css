@@ -84,22 +84,24 @@ img {
 	display: block;
 	padding: 24px 0;
 	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
-.nav-link:active::after {
+.nav-link:active {
+	color: #404bbf;
+}
+.studio-nav {
+	position: relative;
+	color: #404bbf;
+}
+.studio-nav::after {
 	content: "";
 	display: block;
 	width: 100%;
 	background-color: #404bbf;
-	position: absolute;
+	position: absolute; 
 	left: 0;
 	bottom: -1px;
 	height: 4px;
 	border-radius: 2px;
-}
-
-.nav-link:active {
-	color: #404bbf;
 }
 
 .contacts {
@@ -107,12 +109,10 @@ img {
 	display: flex;
 	margin-left: auto;
 }
-
 .contacts-list {
 	display: flex;
 	gap: 40px;
 }
-
 .contacts-link {
 	color: #434455;
 	line-height: 1.5;
@@ -291,12 +291,12 @@ img {
 	text-align: center;
 	margin-bottom: 8px;
 }
-.social-list {
+.team-link-list {
 	display: flex;
 	justify-content: center;
-	column-gap: 24px;
+	gap: 24px;
 }
-.social-item {
+.team-item-link {
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
@@ -353,7 +353,7 @@ background-color: #404bbf;
 .portfolio-item:hover {
 	box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
-.cashless-payment {
+.overflow {
 	display: flex;
 	position: relative;
 	overflow: hidden;
